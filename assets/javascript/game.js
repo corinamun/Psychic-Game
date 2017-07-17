@@ -47,7 +47,7 @@ if(guessesRemaining === 0) {
 
   document.getElementById("triesRemaining").innerHTML = guessesRemaining;
 
-  document.getElementById("triedGuesses").innerHTML = guessesMade.join(", ")
+  document.getElementById("triesGuessed").innerHTML = guessesMade.join(", ")
   
 
 //This "else" statement initiates if user presses a non-letter key.
